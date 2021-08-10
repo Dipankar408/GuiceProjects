@@ -1,0 +1,14 @@
+apply plugin: "java"
+apply plugin: "application"
+
+repositories{
+	mavenCentral()
+}
+dependencies{
+	// https://mvnrepository.com/artifact/com.google.inject/guice
+	implementation group: 'com.google.inject', name: 'guice', version: '5.0.1'
+	
+	testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+	
+}
+mainClassName="com.drawShape.main.GuiceDemo"
