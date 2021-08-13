@@ -1,0 +1,13 @@
+apply plugin: "java"
+apply plugin: "application"
+
+repositories{
+	mavenCentral()
+}
+
+dependencies{
+	implementation group: 'com.google.inject', name: 'guice', version: '5.0.1'
+	
+	testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+}
+mainClassName="com.example.TesterMain"

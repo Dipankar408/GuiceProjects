@@ -1,0 +1,32 @@
+com/shape/request/CircleRequest.java
+ com.shape.request.CircleRequest
+com/shape/request/RectangleRequest.java
+ com.shape.request.RectangleRequest
+com/shape/services/Shapes.java
+ com.shape.services.Shapes
+com/shape/services/Circle.java
+ com.shape.services.Circle
+com/shape/annotaion/LenVal.java
+ com.shape.annotaion.LenVal
+com/shape/annotaion/BrthVal.java
+ com.shape.annotaion.BrthVal
+com/shape/services/Rectangle.java
+ com.shape.services.Rectangle
+com/shape/modules/RectModule.java
+ com.shape.modules.RectModule
+com/shape/request/SquareRequest.java
+ com.shape.request.SquareRequest
+com/shape/Apps/RectangleMain.java
+ com.shape.Apps.RectangleMain
+com/shape/modules/SquareModule.java
+ com.shape.modules.SquareModule
+com/shape/Apps/SquareMain.java
+ com.shape.Apps.SquareMain
+com/shape/services/Square.java
+ com.shape.services.Square
+com/shape/Apps/ShapeMain.java
+ com.shape.Apps.ShapeMain
+com/shape/Apps/CircleMain.java
+ com.shape.Apps.CircleMain
+com/shape/modules/CircleModule.java
+ com.shape.modules.CircleModule

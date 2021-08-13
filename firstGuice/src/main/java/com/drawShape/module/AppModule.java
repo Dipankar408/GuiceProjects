@@ -6,12 +6,13 @@ import com.drawShape.services.DrawShape;
 import com.drawShape.services.DrawSquare;
 import com.google.inject.AbstractModule;
 import com.google.inject.Inject;
+import com.google.inject.Scopes;
 
 public class AppModule extends AbstractModule{
 	@Inject
 	public void configure()
 	{
-		bind(DrawShape.class).to(DrawSquare.class);
+		bind(DrawShape.class).to(DrawSquare.class).in(Scopes.SINGLETON);;
 		bind(String.class).annotatedWith(ColorVal.class).toInstance("Red");
 		bind(Integer.class).annotatedWith(EdgeVal.class).toInstance(4);
 	}

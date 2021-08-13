@@ -1,0 +1,17 @@
+apply plugin:"java"
+apply plugin:"application"
+apply plugin:"war"
+
+repositories{
+	mavenCentral()
+}
+
+dependencies{
+	testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+	implementation group: 'com.google.inject', name: 'guice', version: '5.0.0'
+// https://mvnrepository.com/artifact/com.google.inject.extensions/guice-servlet
+	implementation group: 'com.google.inject.extensions', name: 'guice-servlet', version: '5.0.1'
+
+	
+	
+}
