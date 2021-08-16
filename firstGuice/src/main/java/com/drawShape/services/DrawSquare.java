@@ -7,12 +7,12 @@ import com.google.inject.Inject;
 public class DrawSquare implements DrawShape{
 	private String color;
 	private int edge;
-	
 	@Inject
 	public DrawSquare(@ColorVal String color, @EdgeVal int edge) {
 		super();
 		this.color = color;
 		this.edge = edge;
+		System.out.println("DrawSquare");
 	}
 
 

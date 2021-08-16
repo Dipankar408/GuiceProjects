@@ -7,6 +7,7 @@ import com.drawShape.services.DrawSquare;
 import com.google.inject.AbstractModule;
 import com.google.inject.Inject;
 import com.google.inject.Scopes;
+import com.google.inject.Singleton;
 
 public class AppModule extends AbstractModule{
 	@Inject
