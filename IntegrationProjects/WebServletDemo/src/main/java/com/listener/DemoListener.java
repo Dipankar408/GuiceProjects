@@ -8,15 +8,19 @@ import com.google.inject.servlet.GuiceServletContextListener;
 import com.google.inject.servlet.ServletModule;
 import com.servlet.DemoServlet;
 
+import MyWeb.AddServlet;
+
 @WebListener
-public class DemoListener extends GuiceServletContextListener{
+public class DemoListener extends GuiceServletContextListener {
 
 	@Override
 	protected Injector getInjector() {
 		return Guice.createInjector(new ServletModule() {
-			@Override
+			
 			public void configureServlets() {
-				serve("/*.jsp").with(DemoServlet.class);
+//				serve("home.jsp").with(AddServlet.class);
+				serve("/add").with(AddServlet.class);
+				serve("/demo").with(DemoServlet.class);
 			}
 		});
 	}

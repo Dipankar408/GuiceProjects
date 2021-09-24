@@ -18,6 +18,7 @@ text-align:center;
 <form action="add" method="post">
 Enter number: <input type="text" name="num1"><br><br>
 Enter number: <input type="text" name="num2"><br>
-<input type="submit">
+<input type="submit"></form><br>
+<a href="demo">guice</a>
 </body>
 </html>

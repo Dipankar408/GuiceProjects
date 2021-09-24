@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Home</title>
+<title>Index</title>
 </head>
 <body>
-<a href="index.jsp">back</a>
+Hello Guice
+<form action="serve" method="post">
+<input type="submit">
+</form>
 </body>
 </html>

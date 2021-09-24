@@ -17,12 +17,12 @@
 	</filter-mapping>
 	
 	
-	 <servlet>
-        <servlet-name>add</servlet-name>
-        <servlet-class>MyWeb.AddServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>add</servlet-name>
-        <url-pattern>/add</url-pattern>
-    </servlet-mapping>
+<!-- 	 <servlet> -->
+<!--         <servlet-name>add</servlet-name> -->
+<!--         <servlet-class>MyWeb.AddServlet</servlet-class> -->
+<!--     </servlet> -->
+<!--     <servlet-mapping> -->
+<!--         <servlet-name>add</servlet-name> -->
+<!--         <url-pattern>/add</url-pattern> -->
+<!--     </servlet-mapping> -->
 </web-app>
